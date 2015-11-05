@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D4D6EA721BEBA63D004001E1 /* LiteTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D6EA711BEBA63D004001E1 /* LiteTabBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4D6EA7F1BEBA662004001E1 /* ENTabBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D6EA791BEBA662004001E1 /* ENTabBarView.h */; };
+		D4D6EA801BEBA662004001E1 /* ENTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D6EA7A1BEBA662004001E1 /* ENTabBarView.m */; };
+		D4D6EA811BEBA662004001E1 /* ENTabCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D6EA7B1BEBA662004001E1 /* ENTabCell.h */; };
+		D4D6EA821BEBA662004001E1 /* ENTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D6EA7C1BEBA662004001E1 /* ENTabCell.m */; };
+		D4D6EA831BEBA662004001E1 /* ENTabImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D6EA7D1BEBA662004001E1 /* ENTabImage.h */; };
+		D4D6EA841BEBA662004001E1 /* ENTabImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D6EA7E1BEBA662004001E1 /* ENTabImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D4D6EA6E1BEBA63D004001E1 /* LiteTabBarView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LiteTabBarView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D6EA711BEBA63D004001E1 /* LiteTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiteTabBarView.h; sourceTree = "<group>"; };
 		D4D6EA731BEBA63D004001E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D6EA791BEBA662004001E1 /* ENTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabBarView.h; sourceTree = "<group>"; };
+		D4D6EA7A1BEBA662004001E1 /* ENTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabBarView.m; sourceTree = "<group>"; };
+		D4D6EA7B1BEBA662004001E1 /* ENTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabCell.h; sourceTree = "<group>"; };
+		D4D6EA7C1BEBA662004001E1 /* ENTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabCell.m; sourceTree = "<group>"; };
+		D4D6EA7D1BEBA662004001E1 /* ENTabImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENTabImage.h; sourceTree = "<group>"; };
+		D4D6EA7E1BEBA662004001E1 /* ENTabImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENTabImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +58,12 @@
 		D4D6EA701BEBA63D004001E1 /* LiteTabBarView */ = {
 			isa = PBXGroup;
 			children = (
+				D4D6EA791BEBA662004001E1 /* ENTabBarView.h */,
+				D4D6EA7A1BEBA662004001E1 /* ENTabBarView.m */,
+				D4D6EA7B1BEBA662004001E1 /* ENTabCell.h */,
+				D4D6EA7C1BEBA662004001E1 /* ENTabCell.m */,
+				D4D6EA7D1BEBA662004001E1 /* ENTabImage.h */,
+				D4D6EA7E1BEBA662004001E1 /* ENTabImage.m */,
 				D4D6EA711BEBA63D004001E1 /* LiteTabBarView.h */,
 				D4D6EA731BEBA63D004001E1 /* Info.plist */,
 			);
@@ -59,7 +77,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D6EA7F1BEBA662004001E1 /* ENTabBarView.h in Headers */,
+				D4D6EA811BEBA662004001E1 /* ENTabCell.h in Headers */,
 				D4D6EA721BEBA63D004001E1 /* LiteTabBarView.h in Headers */,
+				D4D6EA831BEBA662004001E1 /* ENTabImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D6EA821BEBA662004001E1 /* ENTabCell.m in Sources */,
+				D4D6EA801BEBA662004001E1 /* ENTabBarView.m in Sources */,
+				D4D6EA841BEBA662004001E1 /* ENTabImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -213,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				VERSIONING_SYSTEM = "apple-generic";
